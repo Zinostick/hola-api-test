@@ -8,7 +8,7 @@ import cors from "cors";
 
 const app = express();
 await startDB().then();
-y;
+
 app.use(
   cors({
     origin: "*",
@@ -21,7 +21,7 @@ app.use(express.json());
 // Routers
 app.use("/users", userRouter);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log("API server running", PORT);
 });
