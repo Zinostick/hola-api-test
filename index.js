@@ -23,7 +23,7 @@ app.use("/users", userRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log("API server running", PORT);
+  console.log("API server running is up on port", PORT);
 });
 
 export default app;
