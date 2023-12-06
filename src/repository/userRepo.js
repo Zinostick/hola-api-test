@@ -1,4 +1,5 @@
 import UserModel from "../models/userModel.js";
+import AssignmentModel from "../models/assignmentModel.js";
 
 export default class UserRepo {
   async createUserRecord(payload) {

@@ -36,4 +36,6 @@ const userSchema = new Schema(
 // A model is used to interact with the database
 const UserModel = mongoose.model("User", userSchema);
 
+//ASSIGNMENT MODEL TO CREATE ASSIGNMENT
+
 export default UserModel;
